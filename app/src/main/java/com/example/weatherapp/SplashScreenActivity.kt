@@ -12,8 +12,10 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
@@ -66,9 +68,10 @@ fun SplashScreen() {
                 .size(350.dp)
                 .padding(top = 90.dp)
         )
+        Spacer(modifier = Modifier.height(20.dp))
         Text(
-            text = "Weather",
-            fontSize = 40.sp,
+            text = "Weather App",
+            fontSize = 30.sp,
             color = Color.White,
             fontWeight = FontWeight.SemiBold
         )
