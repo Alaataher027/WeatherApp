@@ -100,7 +100,7 @@ class DefaultLocationTracker @Inject constructor(
                 null
             )
         } catch (e: SecurityException) {
-            cont.resume(null) // Handle potential SecurityException gracefully
+            cont.resume(null)
         }
 
         cont.invokeOnCancellation {

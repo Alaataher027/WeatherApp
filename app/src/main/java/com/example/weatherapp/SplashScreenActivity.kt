@@ -42,11 +42,10 @@ class SplashScreenActivity : ComponentActivity() {
             }
         }
 
-        // Handler to delay the start of the MainActivity
         Handler().postDelayed({
             startActivity(Intent(this, MainActivity::class.java))
-            finish() // Close the SplashScreenActivity
-        }, 2000) // Duration of the splash screen in milliseconds
+            finish()
+        }, 2000)
     }
 
 
