@@ -1,8 +1,13 @@
+
+https://github.com/user-attachments/assets/67b62156-99c6-4804-bd5e-9b33188a5ec7
+
+
 🌦 Weather App
 
 Welcome to the Weather App repository! This project is a modern, feature-rich Android application that provides real-time weather updates based on the user’s current location.
 
 🛠 Technologies Used
+
 
   ○ Jetpack Compose: Modern UI toolkit for building responsive and dynamic user interfaces.
   
